@@ -49,11 +49,8 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=RealMG&color=blue&style=flat-square&label=Profile+Views" alt="Profile Views" />
   
-  ### 🎵 Now vibing to:
-  
-  [![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/realmg)
-</div>
+ 
 
 ---
 
-⭐️ From [RealMG](https://github.com/RealMG)
+⭐️ From [RealMG](https://github.com/realmg51-cpu)
