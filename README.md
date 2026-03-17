@@ -25,8 +25,12 @@
 
 ### 📈 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RealMG&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RealMG&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=realmg51-cpu&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=realmg51-cpu&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=realmg51-cpu&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
 
 ### 🎯 Current Focus
@@ -34,22 +38,29 @@
 - 🖥️ Developing desktop applications with C# and .NET
 - 📚 Exploring new frameworks and best practices
 
+### 🔥 My Latest Projects
+- [TinyAI](https://github.com/realmg51-cpu/TinyAI)
+- 💡 *Always working on something new*
+
 ### 📫 Connect With Me
 <p align="left">
-  <a href="https://github.com/RealMG?tab=followers">
-    <img src="https://img.shields.io/github/followers/RealMG?label=Followers&style=social" alt="GitHub Followers"/>
+  <a href="https://github.com/realmg51-cpu?tab=followers">
+    <img src="https://img.shields.io/github/followers/realmg51-cpu?label=Followers&style=social" alt="GitHub Followers"/>
   </a>
-  <a href="https://github.com/RealMG">
-    <img src="https://img.shields.io/github/stars/RealMG?label=Stars&style=social" alt="GitHub Stars"/>
+  <a href="https://github.com/realmg51-cpu">
+    <img src="https://img.shields.io/github/stars/realmg51-cpu?label=Stars&style=social" alt="GitHub Stars"/>
   </a>
 </p>
 
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=RealMG&color=blue&style=flat-square&label=Profile+Views" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=realmg51-cpu&color=blue&style=flat-square&label=Profile+Views" alt="Profile Views" />
   
- 
+  ### ⚡ Daily Quote
+  
+  ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+</div>
 
 ---
 
