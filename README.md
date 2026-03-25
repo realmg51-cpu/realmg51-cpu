@@ -39,7 +39,7 @@
 - 📚 Exploring new frameworks and best practices
 
 ### 🔥 My Latest Projects
-- [TinyAI](https://github.com/realmg51-cpu/TinyAI)
+nope
 - 💡 *Always working on something new*
 
 ### 📫 Connect With Me
