@@ -65,3 +65,5 @@ nope
 ---
 
 ⭐️ From [RealMG](https://github.com/realmg51-cpu)
+
+[![realmg51-cpu](https://github.com/realmg51-cpu.png?size=1)](https://github.com/realmg51-cpu "RealMG on Github")
