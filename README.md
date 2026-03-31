@@ -42,11 +42,19 @@ I'm a passionate software developer focused on building robust, scalable applica
 
 ---
 
-### 📈 GitHub Analytics
+### 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=realmg51-cpu&show_icons=true&theme=tokyonight)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="profile/stats-light.svg">
+  <img alt="GitHub Stats" src="profile/stats-light.svg">
+</picture>
 
-![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=realmg51-cpu&theme=tokyonight))
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/top-langs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="profile/top-langs-light.svg">
+  <img alt="Top Languages" src="profile/top-langs-light.svg">
+</picture>
 ---
 
 ### 🎯 Current Focus
