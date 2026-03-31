@@ -50,11 +50,13 @@ I'm a passionate software developer focused on building robust, scalable applica
   <img alt="GitHub Stats" src="profile/stats-light.svg">
 </picture>
 
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile/top-langs-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="profile/top-langs-light.svg">
   <img alt="Top Languages" src="profile/top-langs-light.svg">
 </picture>
+
 ---
 
 ### 🎯 Current Focus
