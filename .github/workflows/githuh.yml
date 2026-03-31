@@ -1,14 +1,12 @@
 name: GitHub Readme Stats
 
 on:
-  workflow_dispatch:  # Cho phép chạy thủ công từ GitHub UI
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'  # Chạy 1 lần/ngày lúc 00:00 UTC
-  push:
-    branches: [main, master]  # Tự động chạy khi push lên main (tùy chọn)
+    - cron: '0 0 * * *'
 
 permissions:
-  contents: write  # Cho phép commit ảnh vào repository
+  contents: write
 
 jobs:
   update-cards:
@@ -28,7 +26,7 @@ jobs:
         with:
           card: stats
           options: |
-            username=${{ github.repository_owner }}
+            username=realmg51-cpu
             &show_icons=true
             &line_height=28
             &hide_border=true
@@ -47,7 +45,7 @@ jobs:
         with:
           card: stats
           options: |
-            username=${{ github.repository_owner }}
+            username=realmg51-cpu
             &show_icons=true
             &line_height=28
             &hide_border=true
@@ -68,7 +66,7 @@ jobs:
         with:
           card: top-langs
           options: |
-            username=${{ github.repository_owner }}
+            username=realmg51-cpu
             &layout=compact
             &langs_count=12
             &hide_border=true
@@ -82,7 +80,7 @@ jobs:
         with:
           card: top-langs
           options: |
-            username=${{ github.repository_owner }}
+            username=realmg51-cpu
             &layout=compact
             &langs_count=12
             &hide_border=true
@@ -98,7 +96,7 @@ jobs:
         with:
           card: streak-stats
           options: |
-            username=${{ github.repository_owner }}
+            username=realmg51-cpu
             &hide_border=true
             &theme=default
           path: profile/streak-light.svg
@@ -109,41 +107,12 @@ jobs:
         with:
           card: streak-stats
           options: |
-            username=${{ github.repository_owner }}
+            username=realmg51-cpu
             &hide_border=true
             &theme=dark
             &bg_color=000000
           path: profile/streak-dark.svg
           token: ${{ secrets.PAT }}
-
-      # ========== WAKATIME CARDS (nếu dùng WakaTime) ==========
-      # Bỏ comment nếu bạn có tài khoản WakaTime
-      # - name: Generate wakatime (light mode)
-      #   uses: readme-tools/github-readme-stats-action@v1
-      #   with:
-      #     card: wakatime
-      #     options: |
-      #       username=${{ github.repository_owner }}
-      #       &hide_border=true
-      #       &theme=default
-      #       &layout=compact
-      #       &langs_count=10
-      #     path: profile/wakatime-light.svg
-      #     token: ${{ secrets.PAT }}
-
-      # - name: Generate wakatime (dark mode)
-      #   uses: readme-tools/github-readme-stats-action@v1
-      #   with:
-      #     card: wakatime
-      #     options: |
-      #       username=${{ github.repository_owner }}
-      #       &hide_border=true
-      #       &theme=dark
-      #       &bg_color=000000
-      #       &layout=compact
-      #       &langs_count=10
-      #     path: profile/wakatime-dark.svg
-      #     token: ${{ secrets.PAT }}
 
       # ========== COMMIT AND PUSH ==========
       - name: Commit and push generated cards
