@@ -8,6 +8,9 @@ on:
 permissions:
   contents: write
 
+env:
+  USERNAME: "realmg51-cpu"
+
 jobs:
   update-cards:
     runs-on: ubuntu-latest
@@ -25,18 +28,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: |
-            username=realmg51-cpu
-            &show_icons=true
-            &line_height=28
-            &hide_border=true
-            &card_width=347
-            &include_all_commits=true
-            &role=owner,collaborator
-            &show=reviews,discussions_answered
-            &hide_rank=true
-            &exclude_repo=github-readme-stats
-            &theme=default
+          options: "username=${{ env.USERNAME }}&show_icons=true&line_height=28&hide_border=true&card_width=347&include_all_commits=true&role=owner,collaborator&show=reviews,discussions_answered&hide_rank=true&exclude_repo=github-readme-stats&theme=default"
           path: profile/stats-light.svg
           token: ${{ secrets.PAT }}
 
@@ -44,34 +36,15 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: |
-            username=realmg51-cpu
-            &show_icons=true
-            &line_height=28
-            &hide_border=true
-            &card_width=347
-            &include_all_commits=true
-            &role=owner,collaborator
-            &show=reviews,discussions_answered
-            &hide_rank=true
-            &exclude_repo=github-readme-stats
-            &theme=dark
-            &bg_color=000000
+          options: "username=${{ env.USERNAME }}&show_icons=true&line_height=28&hide_border=true&card_width=347&include_all_commits=true&role=owner,collaborator&show=reviews,discussions_answered&hide_rank=true&exclude_repo=github-readme-stats&theme=dark&bg_color=000000"
           path: profile/stats-dark.svg
           token: ${{ secrets.PAT }}
 
-      # ========== TOP LANGUAGES CARDS ==========
       - name: Generate top languages (light mode)
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: |
-            username=realmg51-cpu
-            &layout=compact
-            &langs_count=12
-            &hide_border=true
-            &role=owner,collaborator
-            &theme=default
+          options: "username=${{ env.USERNAME }}&layout=compact&langs_count=12&hide_border=true&role=owner,collaborator&theme=default"
           path: profile/top-langs-light.svg
           token: ${{ secrets.PAT }}
 
@@ -79,26 +52,15 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: |
-            username=realmg51-cpu
-            &layout=compact
-            &langs_count=12
-            &hide_border=true
-            &role=owner,collaborator
-            &theme=dark
-            &bg_color=000000
+          options: "username=${{ env.USERNAME }}&layout=compact&langs_count=12&hide_border=true&role=owner,collaborator&theme=dark&bg_color=000000"
           path: profile/top-langs-dark.svg
           token: ${{ secrets.PAT }}
 
-      # ========== STREAK CARDS ==========
       - name: Generate streak (light mode)
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: streak-stats
-          options: |
-            username=realmg51-cpu
-            &hide_border=true
-            &theme=default
+          options: "username=${{ env.USERNAME }}&hide_border=true&theme=default"
           path: profile/streak-light.svg
           token: ${{ secrets.PAT }}
 
@@ -106,15 +68,10 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: streak-stats
-          options: |
-            username=realmg51-cpu
-            &hide_border=true
-            &theme=dark
-            &bg_color=000000
+          options: "username=${{ env.USERNAME }}&hide_border=true&theme=dark&bg_color=000000"
           path: profile/streak-dark.svg
           token: ${{ secrets.PAT }}
 
-      # ========== COMMIT AND PUSH ==========
       - name: Commit and push generated cards
         run: |
           git config user.name "github-actions[bot]"
